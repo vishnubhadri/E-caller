@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dark">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="background">#303030</color>
+    <color name="button">#5A595B</color>
+    <color name="button_text">#DEDEDE</color>
+    <color name="textbox">#303030</color>
+    <color name="red">#ff0000</color>
+    <color name="Green">#0FE337</color>
+    <color name="yellow">#FCF2C5</color>
+    <color name="gray">#5F5E5E</color>
+    <color name="blue">#2d5d88</color>
+    <color name="blue_A2E5F5">#A2E5F5</color>
+
+</resources>

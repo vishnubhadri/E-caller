@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">ECaller</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_the_number">Enter the number</string>
+    <string name="enter_the_name_and_number">Enter the name and number</string>
+    <string name="select_contact">Select Contact</string>
+    <string name="or">Or</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="call_contact_1">call Contact 1</string>
+    <string name="call_contact_2">call Contact 2</string>
+    <string name="call_contact_3">call Contact 3</string>
+    <string name="call_contact_4">call Contact 4</string>
+    <string name="call_contact_5">call Contact 5</string>
+    <string name="set_contact">Set Contact</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="start_service">Start Service</string>
+    <string name="delete_contact">Delete contact</string>
+    <string name="title_activity_settings_help">Help</string>
+
+</resources>

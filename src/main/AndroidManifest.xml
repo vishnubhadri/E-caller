@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vishnu.ecaller.ECaller"
+    android:versionCode="3"
+    android:versionName="Green">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_new"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyDialog"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <service android:name=".ECallerService" />
+
+        <activity android:name=".SetContacts" />
+        <activity android:name=".SelectContacts" />
+
+        <receiver
+            android:name=".poweron_startup"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Settings" />
+
+        <receiver
+            android:name=".Lockscreenstatus"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".About"
+            android:label="About"/>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_settings_help"/>
+        <activity
+            android:name=".setcontact_help"
+            android:label="@string/title_activity_settings_help"/>
+        <activity
+            android:name=".Selectcontact_help"
+            android:label="@string/title_activity_settings_help"/>
+        <activity
+            android:name=".Settings_help"
+            android:label="@string/title_activity_settings_help"/>
+    </application>
+
+</manifest>

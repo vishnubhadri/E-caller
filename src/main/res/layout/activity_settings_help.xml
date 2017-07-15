@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vishnu.ecaller.ECaller.Settings_help">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Settings"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button_text" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView12"
+                android:text="\t\t\t\t\t\t\tIn settings you can modify the settings that have been given to the user. The few settings are mention "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_text" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView13"
+                android:layout_marginTop="25dp"
+                android:text="Run on power on"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button_text" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView14"
+                android:text="\t\t\t\t\t\t\tThis settings is use to open the application when the device is power on.\n By ticking this option the feature only enable"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_text" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Run only on lock screen"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button_text" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView16"
+                android:text="\t\t\t\t\t\t\tThis setting is used to enable only over lock screen. This is in BETA option. Some times it may not work"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_text" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Set ECAller icon size"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button_text" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView16"
+                android:text="\t\t\t\t\t\t\tThis setting is used to set the ECaller service icon size. In some phones the icon is so large. by this settings we can set the size of the icon"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_text" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

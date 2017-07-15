@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vishnu.ecaller.ECaller.Help">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button_text"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t\tThis is the app that used for emergency period. This app can provide particular contact that you can set.\n\n"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Start ECaller\n"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t\tBy clicking the switch Button you will Floating Button. That is ECaller service. By clicking this you you will find contacts you have set.\nNote:\n\t\t\t\t\t\t\t\t\t you need to set the contacts before you use\n\n"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_text"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="To set contact\n"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t\tTo set the contact you will find the button name setcontact. After clicking that click the option and see the help\n\n"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/button_text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t\tSome times the service is running on background. you will find that in the notification. In that case you stop and start the service\n\n"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/red"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
